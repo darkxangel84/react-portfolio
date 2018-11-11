@@ -21,11 +21,13 @@ class Main extends Component {
         return (
             <div className="container">
                 <h2>{this.props.headingTitle}</h2>
-                <p>pibus tellus. In ullamcorper dui purus, vitae vestibulum erat iaculis et. Integer semper faucibus euismod. Sed eu tortor tortor. Vivamus sed magna sed diam ultricies sagittis eu sit amet mauris. Sed commodo quis ex in commodo. Phasellus nec ante efficitur, aliquam leo nec, tempus diam. Aenean tincidunt turpis lectus, ac dictum sem rhoncus non. Cras est est, mollis a orci id, tristique pharetra lectus. Pellentesque efficitur molestie euismod.</p>
+                <p>pibus tellus. In ullamcorper dui purus, vitae vestibulum erat iaculis et. Integer semper faucibus euismod. Sed eu tortor tortor. Vivamus sed magna sed diam ultricies sagittis eu sit amet mauris.</p>
 
-                {this.state.data.map((project, i) =>
-                    <Project key={i} project={project} />
-                )}
+                <div className="recent-work">
+                    {this.state.data.map((project, i) =>
+                        <Project key={i} project={project} />
+                    )}
+                </div>
             </div>
         )
     }

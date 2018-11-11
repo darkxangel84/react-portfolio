@@ -1,3 +1,20 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    font-size: 14px;
+    line-height: 1.3;
+    margin: 0;
+    padding: 0;
+    color: #EEEEEE;
+    background-color: #222831;
+}
+
 header {
     font-size: 1.5em;
     margin: 0;
@@ -36,6 +53,34 @@ header {
     width: 90%;
 }
 
+.recent-work .recent-work-container {
+    /* box-shadow: 0 0 2rem RGBA(0, 0, 0, 0.5);
+    position: relative;
+    margin-bottom: 3em;
+    overflow: hidden; */
+    color: #f1f1f1;
+}
+
+.text-container {
+    color: #f1f1f1;
+    /* position: absolute;
+    transition: .5s ease;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    background-color: #EEEEEE;
+    text-align: center; */
+}
+
+.text {
+    width: 100%;
+    text-align: center;
+    /* color: #222831; */
+    padding: 1em;
+}
 
 footer {
     background-color: #393E46;
