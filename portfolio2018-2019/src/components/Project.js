@@ -1,18 +1,14 @@
 import React, { Component } from 'react'
 
+
 class Project extends Component {
+
     render() {
+        const { project_title, project_description } = this.props.project;
         return (
             <div className="recent-work-container">
-
-                <div className="textContainer">
-                    <img src="./img/project-img.jpg" alt="
-                    " />
-                    <div className="text">
-                        <h4 className="recent-work-title">Title of project</h4>
-                        <p className="recent-work-description">Description of project</p>
-                        <a className="button" href="">Link to project</a>
-                    </div>
+                <div className="recent-work-title">{project_title}</div>
+                <div className="recent-description">{project_description}
                 </div>
             </div>
         )
