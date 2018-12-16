@@ -1,9 +1,4 @@
-/* COLORS */
-/* #112d4e - navy blue
-    #3f72af - blue
-    #dbe2ef - sky blue
-    #f9f7f7 - pale white
-*/
+@import '/scss/variables';
 
 html {
     box-sizing: border-box;
@@ -23,8 +18,8 @@ body {
     line-height: 1.3;
     margin: 0;
     padding: 0;
-    color: #f9f7f7;
-    background-color: #112d4e;
+    color: $lightColor;
+    background-color: $secondaryColor;
 }
 @media screen and (min-width: 680px) {
     body {
@@ -40,12 +35,12 @@ body {
 
 a {
     text-decoration: none;
-    color: #f9f7f7;
+    color: $lightColor;
 }
 
 h1, h2, h3 {
     font-family: "Fjalla One", sans-serif;
-    color: #3f72af;
+    color: $primaryColor;
 }
 
 h1 {
@@ -64,7 +59,7 @@ h4 {
 header {
     margin: 0;
     height: 10vh;
-    background-color: #3f72af;
+    background-color: $primaryColor;
 }
 
 
@@ -76,7 +71,7 @@ header {
 }
 
 .logo h1 {
-    color: #f9f7f7;
+    color: $lightColor;
     font-size: 1.8em;
     line-height: 1.2;
     margin: 0;
@@ -89,7 +84,7 @@ header {
 @media screen and (min-width: 680px) {
     .nav-items {
         list-style: none;
-        background-color: #3f72af;
+        background-color: $primaryColor;
         display: flex;
         margin: 0;
         padding: 0;
@@ -108,7 +103,7 @@ header {
 
 @media screen and (min-width: 680px) {
     .nav-items li a {
-        color: #f9f7f7;
+        color: $lightColor;
         padding: 0 1em;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
@@ -119,7 +114,7 @@ header {
 
 @media screen and (min-width: 1024px) {
     .nav-items li a {
-        color: #EEEEEE;
+        color: $lightColor;
         transition: all .2s ease-out;
         font-weight: 700;
     }
@@ -127,7 +122,7 @@ header {
 
 @media screen and (min-width: 1024px) {
     .nav-items li a:hover {
-        color: #f9f7f7;
+        color: $lightColor;
         text-decoration: underline;
     }
 }
@@ -140,7 +135,7 @@ header {
     background: url('/img/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom: 5px solid #3f72af;
+    border-bottom: 5px solid $primaryColor;
     height: 90vh;
 }
 
@@ -168,7 +163,7 @@ header {
     padding: .5em .5em;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
-    color: #112d4e;
+    color: $secondaryColor;
     line-height: 1.2;
     font-size: 2.2em;
     margin-bottom: 0;
@@ -178,7 +173,7 @@ header {
 .hero .hero-content .heroh2 {
     background: rgba(156, 138, 165, 0.5);
     padding: 0 .5em .5em;
-    color: #112d4e;
+    color: $secondaryColor;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
     margin: 0;
@@ -199,7 +194,7 @@ header {
 }
 
 hr {
-    background-color: #3f72af;
+    background-color: $primaryColor;
     width: 25%;
     height: 10px;
     margin: 0 0 2em;
@@ -263,7 +258,7 @@ hr {
 
 /* ============= FOOTER SECTION ============= */
 footer {
-    background-color: #3f72af;
+    background-color: $primaryColor;
     font-size: .7em;
     padding: 5em 0;
     text-align: center;
