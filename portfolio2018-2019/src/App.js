@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/Header';
-import HeroBanner from './components/heroBanner';
-import Main from './components/Main';
+import Home from './components/pages/Home';
+import About from './components/pages/About'
+import Projects from './components/pages/Projects';
 import Footer from './components/Footer';
 
 
@@ -10,12 +12,18 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header title="> _Aimee Tacchi" />
-        <HeroBanner name="Aimee" />
-        <Main headingTitle="I’m passionate about clean looking websites that work really well on all devices." />
-        <Footer date={new Date().getFullYear()} />
-      </div>
+      <Router>
+        <div className="App">
+
+          <Header title="> _Aimee Tacchi" />
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route exact path='/about' component={About} />
+            <Route exact path='/projects' component={Projects} />
+          </Switch>
+          <Footer date={new Date().getFullYear()} />
+        </div>
+      </Router>
     );
   }
 }

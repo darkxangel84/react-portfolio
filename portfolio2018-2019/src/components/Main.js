@@ -21,13 +21,21 @@ class Main extends Component {
         return (
             <div className="container">
                 <h2>{this.props.headingTitle}</h2>
-                <p>pibus tellus. In ullamcorper dui purus, vitae vestibulum erat iaculis et. Integer semper faucibus euismod. Sed eu tortor tortor. Vivamus sed magna sed diam ultricies sagittis eu sit amet mauris.</p>
+                <p>I'm a Front-End Web Developer, based in Dunstable, Bedfordshire, I design and develop simple and stylish responsive websites for small businesses, organisations or individuals, at affordable prices.</p>
 
+                <p>I am always looking for new projects and would love to work with you and bring your dream to life. Feel free to contact me and we can talk about it, I am here to help you with your needs.</p>
+
+                <div id="recentwork" className="recent-work-title">
+                    <h3>Recent Work</h3>
+                    <hr></hr>
+                    <p>Take a look at my portfolio of all work I have perviously done for clients and friends.</p>
+                </div>
                 <div className="recent-work">
                     {this.state.data.map((project, i) =>
                         <Project key={i} project={project} />
                     )}
                 </div>
+
             </div>
         )
     }
