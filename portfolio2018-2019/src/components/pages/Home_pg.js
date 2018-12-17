@@ -2,7 +2,7 @@ import React from 'react'
 import HeroBanner from '../HeroBanner';
 import Main from '../Main';
 
-export default function Home() {
+function Home_pg() {
     return (
         <div className="page">
             <HeroBanner name="Aimee" />
@@ -10,3 +10,4 @@ export default function Home() {
         </div>
     )
 }
+export default Home_pg;

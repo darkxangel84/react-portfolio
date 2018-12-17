@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/Header';
-import Home from './components/pages/Home';
-import About from './components/pages/About'
-import Projects from './components/pages/Projects';
+import Home_pg from './components/pages/Home_pg';
+import About_pg from './components/pages/About_pg'
+import Projects_pg from './components/pages/Projects_pg';
+import Project_pg from './components/pages/Project_pg';
 import Footer from './components/Footer';
 
 
@@ -17,9 +18,10 @@ class App extends Component {
 
           <Header title="> _Aimee Tacchi" />
           <Switch>
-            <Route exact path='/' component={Home} />
-            <Route exact path='/about' component={About} />
-            <Route exact path='/projects' component={Projects} />
+            <Route exact path='/' component={Home_pg} />
+            <Route exact path='/about' component={About_pg} />
+            <Route exact path='/projects' component={Projects_pg} />
+            <Route exact path={`/projects/:projectId`} component={Project_pg} />
           </Switch>
           <Footer date={new Date().getFullYear()} />
         </div>

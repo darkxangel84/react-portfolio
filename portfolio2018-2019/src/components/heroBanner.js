@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class heroBanner extends Component {
+class HeroBanner extends Component {
     render() {
         return (
             <div className="hero">
@@ -13,4 +13,4 @@ class heroBanner extends Component {
     }
 }
 
-export default heroBanner;
+export default HeroBanner;

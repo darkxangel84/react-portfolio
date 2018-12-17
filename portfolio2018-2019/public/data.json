@@ -2,15 +2,15 @@
     {
         "id": 1,
         "project_title": "Project One",
-        "project_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque ornare tellus, hendrerit ullamcorper enim semper sit amet. Morbi nec sem feugiat, suscipit nunc sed, efficitur lacus. ",
+        "project_description": "Project One, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque ornare tellus, hendrerit ullamcorper enim semper sit amet. Morbi nec sem feugiat, suscipit nunc sed, efficitur lacus. ",
         "project_img": "/img/project-img.jpg",
-        "project_link": "www.website.co.uk",
+        "project_link": "www.websiteproject.co.uk",
         "project_skills": "HTML, CSS, Javascript"
     },
     {
         "id": 2,
         "project_title": "Project Two",
-        "project_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque ornare tellus, hendrerit ullamcorper enim semper sit amet. Morbi nec sem feugiat, suscipit nunc sed, efficitur lacus. ",
+        "project_description": "Project Two, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque ornare tellus, hendrerit ullamcorper enim semper sit amet. Morbi nec sem feugiat, suscipit nunc sed, efficitur lacus. ",
         "project_img": "/img/project-img.jpg",
         "project_link": "www.websiteproject.co.uk",
         "project_skills": "HTML, CSS, jQuery"
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "project_title": "Project Three",
-        "project_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque ornare tellus, hendrerit ullamcorper enim semper sit amet. Morbi nec sem feugiat, suscipit nunc sed, efficitur lacus. ",
+        "project_description": "Project Three, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque ornare tellus, hendrerit ullamcorper enim semper sit amet. Morbi nec sem feugiat, suscipit nunc sed, efficitur lacus. ",
         "project_img": "/img/project-img.jpg",
         "project_link": "www.websiteproject.co.uk",
         "project_skills": "HTML, CSS, jQuery"
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "project_title": "Project Four",
-        "project_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque ornare tellus, hendrerit ullamcorper enim semper sit amet. Morbi nec sem feugiat, suscipit nunc sed, efficitur lacus. ",
+        "project_description": "Project Four, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque ornare tellus, hendrerit ullamcorper enim semper sit amet. Morbi nec sem feugiat, suscipit nunc sed, efficitur lacus. ",
         "project_img": "/img/project-img.jpg",
         "project_link": "www.websiteproject.co.uk",
         "project_skills": "HTML, CSS, Javascript"
