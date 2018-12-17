@@ -3,7 +3,8 @@ import React, { Component } from 'react'
 class Project_pg extends Component {
 
     render() {
-        const { location } = this.props
+        const { location, match } = this.props
+        console.log(match.url)
         return (
           
             <div className="container">

@@ -1,0 +1,34 @@
+header {
+    margin: 0;
+    height: 10vh;
+    background-color: $primaryColor;
+}
+
+@media screen and (min-width: 680px) {
+    header {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.container {
+    margin: 2em auto 0;
+    width: 90%;
+}
+
+/* TABLET & DESKTOP */
+@media screen and (min-width: 680px) {
+    .container {
+        padding: 3em;
+        width: 70%;
+    }
+}
+
+
+/* ============= FOOTER SECTION ============= */
+footer {
+    background-color: $primaryColor;
+    font-size: .7em;
+    padding: 5em 0;
+    text-align: center;
+}

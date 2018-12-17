@@ -1,0 +1,49 @@
+/* ==== HERO SECTION ====== */
+.hero {
+    background: url('/img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 5px solid $primaryColor;
+    height: 90vh;
+}
+
+.hero .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    .hero .hero-content {
+        padding: 4em 2em;
+        width: 80%;
+    }
+}
+
+.hero .hero-content .heroh1 {
+    background: rgba(156, 138, 165, 0.5);
+    padding: .5em .5em;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    color: $secondaryColor;
+    line-height: 1.2;
+    font-size: 2.2em;
+    margin-bottom: 0;
+    width: 90%;
+}
+
+.hero .hero-content .heroh2 {
+    background: rgba(156, 138, 165, 0.5);
+    padding: 0 .5em .5em;
+    color: $secondaryColor;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin: 0;
+    width: 90%;
+}
