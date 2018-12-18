@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 class Header extends Component {
     render() {
         return (
-
             <div>
                 <header>
                     <div className="logo">
@@ -13,14 +12,12 @@ class Header extends Component {
                         </Link>
                     </div>
 
-
+                    <div className="burgermenu">
+                        <div className="bar"></div>
+                        <div className="bar"></div>
+                        <div className="bar"></div>
+                    </div>
                     <nav>
-                        <div className="burgermenu">
-                            <div className="bar"></div>
-                            <div className="bar"></div>
-                            <div className="bar"></div>
-                        </div>
-
                         <ul className="nav-items">
                             <li>
                                 <Link to='/about' className='nav-link'>About</Link>

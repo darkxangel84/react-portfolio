@@ -4,8 +4,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 5px solid $primaryColor;
-    height: 90vh;
+    height: 92vh;
+
+    @media screen and (min-width: 1024px) {
+        height: 90vh;
+    }
 }
+
+
 
 .hero .hero-content {
     display: flex;
@@ -17,14 +23,13 @@
     margin: 0 auto;
     text-align: center;
     width: 100%;
-}
 
-@media screen and (min-width: 1024px) {
-    .hero .hero-content {
+    @media screen and (min-width: 1024px) {
         padding: 4em 2em;
         width: 80%;
     }
 }
+
 
 .hero .hero-content .heroh1 {
     background: rgba(156, 138, 165, 0.5);
