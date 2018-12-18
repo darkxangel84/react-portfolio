@@ -2,6 +2,21 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 class Header extends Component {
+    constructor(props){
+        super(props);
+
+        this.isActive = this.isActive.bind(this);
+        this.state = {
+            active: false,
+        }
+    }
+
+    isActive() {
+        this.setState ({
+            active: !this.state.active
+        })
+    }
+
     render() {
         return (
             <div>
@@ -12,12 +27,12 @@ class Header extends Component {
                         </Link>
                     </div>
 
-                    <div className="burgermenu">
-                        <div className="bar"></div>
-                        <div className="bar"></div>
-                        <div className="bar"></div>
+                    <div onClick={this.isActive} id="burgermenu">
+                        <div id="bar" className={this.state.active ? 'rotatebar1': null}></div>
+                        <div id="bar" className={this.state.active ? 'hidebar2': null} ></div>
+                        <div id="bar" className={this.state.active ? 'rotatebar3': null}></div>
                     </div>
-                    <nav>
+                    <nav className={this.state.active ? 'toogleNav': null} >
                         <ul className="nav-items">
                             <li>
                                 <Link to='/about' className='nav-link'>About</Link>
