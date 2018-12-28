@@ -6,13 +6,13 @@ class Project_pg extends Component {
         const { location, match } = this.props
         console.log(match.url)
         return (
-          
+
             <div className="container">
                 <h1>{location.state.title}</h1>
-                <img src={location.state.img} alt="project"/>
+                <img src={location.state.img} alt="project" />
                 <p>{location.state.description}</p>
                 <p>{location.state.skills}</p>
-                <a target="_blank" href={location.state.link}>Visit Website</a>
+                <a target="_blank" href={location.state.link} rel="noopener noreferrer" >Visit Website</a>
             </div>
         )
     }
